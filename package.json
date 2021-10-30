@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0",
+    "name": "carbon",
+    
+    "repository": "https://github.com/Dollor-Lua/Carbon",
+    "bugs": "https://github.com/Dollor-Lua/Carbon/issues",
+    "author": "Fynotix",
+    "license": "None",
+    "private": false,
+
+    "bin": {
+        "carbon": "bin/carbon.js"
+    },
+    "main": "./index.js",
+    "exports": {
+        ".": [
+            {
+                "default": "./index.js"
+            },
+            "./index.js"
+        ],
+        "./package.json": "./package.json"
+    },
+
+    "engines": {
+        "node": "^12.13.0 || ^14.15.0 || >=16"
+    }
+}
