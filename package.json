@@ -1,13 +1,11 @@
 {
     "version": "1.0.0",
     "name": "carbon",
-    
     "repository": "https://github.com/Dollor-Lua/Carbon",
     "bugs": "https://github.com/Dollor-Lua/Carbon/issues",
     "author": "Fynotix",
     "license": "None",
     "private": false,
-
     "bin": {
         "carbon": "bin/carbon.js"
     },
@@ -21,8 +19,12 @@
         ],
         "./package.json": "./package.json"
     },
-
     "engines": {
         "node": "^12.13.0 || ^14.15.0 || >=16"
+    },
+    "dependencies": {
+        "are-we-there-yet": "^2.0.0",
+        "gauge": "^3.0.1",
+        "semver": "^7.3.5"
     }
 }
